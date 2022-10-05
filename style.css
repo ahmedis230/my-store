@@ -1,0 +1,361 @@
+.header{
+    background-image: url(images/bg.jpg);
+    min-height: 100vh;
+    background-position: 100% 100%;
+    background-size: cover;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.624);
+    height: 100vh;
+}
+.layer h3::after {
+    display: inline-block;
+    text-align: center;
+    content: " |";
+    animation-name: typeing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    font-size: 4rem;
+    font-weight: 400;
+  }
+  .social-icon i{
+    cursor: pointer;
+  }
+  .first-ani-style{
+    font-size: 3.5rem;
+  }
+  @keyframes typeing {
+    0% {
+      content: " |";
+    }
+    5% {
+      content: " L|";
+    }
+    10% {
+      content: " La|";
+    }
+    15% {
+      content: " Lar|";
+    }
+    20% {
+      content: " Larr|";
+    }
+  
+    25% {
+      content: " Larry|";
+    }
+  
+    30% {
+      content: " Larry D|";
+    }
+    35% {
+      content: " Larry Da|";
+    }
+    40% {
+      content: " Larry Dan|";
+    }
+    45% {
+      content: " Larry Dania|";
+    }
+    50% {
+      content:   "Larry Danials";
+    }
+    53% {
+      content: " D|";
+    }
+    56% {
+      content: " De|";
+    }
+    59% {
+      content: " Dev|";
+    }
+    62% {
+      content: " Deve|";
+    }
+  
+    65% {
+      content: " Devel|";
+    }
+  
+    68% {
+      content: " Develop|";
+    }
+  
+    71% {
+      content: " Develope|";
+    }
+  
+    74% {
+      content: " Developer|";
+    }
+    77% {
+      content:   "D";
+    }
+    80% {
+      content: " De|";
+    }
+    83% {
+      content: " Des|";
+    }
+    86% {
+      content: " Desi|";
+    }
+    89% {
+      content: " Desig|";
+    }
+  
+    92% {
+      content: " Design|";
+    }
+  
+    95% {
+      content: " Designe|";
+    }
+  
+    98% {
+      content: " Designer|";
+    }
+  
+    
+    99% {
+      content: " Designer|";
+    }
+    100% {
+      content: " Designer|";
+    }
+  }
+
+.head-info{
+    color: #fff;
+}
+
+.b-style{
+    border: 2px solid #f5f5f5;
+    border-radius: 30px;
+    background: none;
+    color: #fff;
+}
+.about{
+    margin-top: 10%;
+}
+.img-about-style{
+    height: 65vh;
+}
+.skill-item .skill-bar {
+    height: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    width: 150%;
+    position: relative;
+    box-shadow: 0px 2px 7px rgb(0 0 0 / 15%) inset;
+
+}
+.skill-bar span{
+    height: 100%;
+    background-color: black;
+    border-radius: 0;
+    position: absolute;
+}
+.web .skill-bar .web-bar {
+    width: 95%;
+    animation: run-html 2s;
+}
+.brand .skill-bar .brand-bar {
+    width: 80%;
+    animation: run-html 2s;
+}
+.develop .skill-bar .develop-bar {
+    width: 90%;
+    animation: run-html 2s;
+}
+.fw-semibold{
+    color: #fff;
+}
+.percent-style{
+    position: absolute;
+    color: white;
+    top: 0px;
+    left: 90%;
+}
+.inside-style{
+    margin-top: -3px;
+}
+
+
+.btn1 {
+    background-color: black;
+    color: #fff;
+}
+
+.btn1:hover {
+    background-color: transparent;
+    color: black;
+}
+
+.btn2 {
+    background-color: transparent;
+    color: black;
+}
+
+.btn2:hover {
+    background-color: black;
+    color: #fff;
+}
+.mysection{
+    background: #f7f7f7;
+
+}
+.icon-box{
+    background-color: #f4f4f4;
+    border:none;
+    border-radius: 50%;
+    height:70px;
+    width: 70px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    transition: all 500ms ease;
+
+}
+.icon-box i{
+    position: absolute;
+    right: 22px;
+    top: 22px;
+}
+.pading-style{
+    padding: 50px 20px;
+
+}
+.element:hover .icon-box {
+    background-color: black;
+    color: #fff;
+}
+.links a{
+    text-decoration: none;
+    padding:0 10px 0 10px;
+    color: black;
+}
+.links .first{
+    text-decoration: underline;
+}
+.service-h1-style{
+    font-weight: 900;
+}
+.profile-h2{
+    font-weight: 900;
+}
+.protofolio-image{
+    overflow: hidden;
+}
+.protofolio-image img{
+    transition: 0.5s;
+}
+.overlayer{
+    color:black;
+    background: rgba(255, 255, 255, 0.95);
+    top: 100%;
+    transition: 1s;
+}
+
+.protofolio-image:hover .overlayer{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.protofolio-image:hover img{
+    border: 8px solid #748182;
+}
+
+.overlayer-text i{
+    font-size: 0.7rem;
+    padding: 10px;
+    color: #dbe9ea;  
+    background-color: #000000;
+    clip-path: circle(50%);
+}
+.overlayer-text i:hover{
+    background-color: #dbe9ea;
+    color: #000000;
+}
+.marging-profile{
+    margin-bottom: 20%;
+}
+.clients-section{
+    background: #f7f7f7;
+
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+    bottom: -50px;
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 5px;
+    height: 5px;
+    padding: 0;
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: #6d6868;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+}
+.style-h1{
+    margin-bottom: 15%;
+    font-weight: 900;
+}
+.element-blog img{
+    width: 100%;
+}
+.Blog-section{
+    background: #f7f7f7;
+
+}
+.h2-blog-style{
+    font-weight: 900;
+}
+.text-box2 a{
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+.text-box2{
+    background: #fff;
+    padding: 30px 15px;
+}
+
+.blog-content:hover img{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.contact-h1 {
+    margin-bottom: 5%;
+    font-weight: 900;
+}
+.input-style{
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    background: #f4f4f4;
+    outline: none;
+}
+footer{
+    background: #1c1c1c;
+    padding: 30px;
+    color: #748182;
+}
